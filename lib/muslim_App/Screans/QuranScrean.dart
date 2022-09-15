@@ -11,7 +11,6 @@ import 'package:flutter_application_1/muslim_App/Widgets/SurahCustomListTile.dar
 import 'package:flutter_application_1/muslim_App/data/ApiHelper.dart';
 
 import '../Widgets/SajdaCustomListTile.dart';
-import '../Quran/juzz/JuzScrean.dart';
 
 const List<String> list = <String>[
   'الأجزاء',

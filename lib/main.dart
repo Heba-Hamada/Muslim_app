@@ -3,9 +3,9 @@ import 'package:flutter_application_1/muslim_App/Category/MasbahaCounter.dart/Ad
 import 'package:flutter_application_1/muslim_App/Category/Quran/juzz/JuzScrean.dart';
 import 'package:flutter_application_1/muslim_App/Category/Quran/surah/Surahdetail.dart';
 import 'package:flutter_application_1/muslim_App/Splash/SplashScrean.dart';
+import 'package:flutter_application_1/muslim_App/data/Provider/ApiProvider.dart';
 import 'package:flutter_application_1/muslim_App/data/SpHelper.dart';
 
-import 'package:flutter_application_1/nameofAlah/nameofAlah.dart';
 import 'package:provider/provider.dart';
 //import 'package:firebase_core/firebase_core.dart';
 //import 'firebase_options.dart';
@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiProvider(
       providers: [
+        ChangeNotifierProvider<ApiProvider>(create: (context) => ApiProvider()),
         ChangeNotifierProvider<AddZ>(create: (context) => AddZ()),
         ChangeNotifierProvider<SpHelper>(create: (context) => SpHelper()),
       ],

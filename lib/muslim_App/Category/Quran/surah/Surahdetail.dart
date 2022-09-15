@@ -4,6 +4,8 @@ import 'package:flutter_application_1/muslim_App/Constants/Constants.dart';
 import 'package:flutter_application_1/muslim_App/Models/SurahTranslation.dart';
 import 'package:flutter_application_1/muslim_App/Widgets/TranslatinTile.dart';
 import 'package:flutter_application_1/muslim_App/data/ApiHelper.dart';
+import 'package:flutter_application_1/muslim_App/data/Provider/ApiProvider.dart';
+import 'package:provider/provider.dart';
 import 'package:solid_bottom_sheet/solid_bottom_sheet.dart';
 
 enum Translation {

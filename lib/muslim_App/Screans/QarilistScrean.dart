@@ -4,6 +4,8 @@ import 'package:flutter_application_1/muslim_App/Models/Qari.dart';
 import 'package:flutter_application_1/muslim_App/Screans/AudioSurahScrean.dart';
 import 'package:flutter_application_1/muslim_App/Widgets/QariCustomTile.dart';
 import 'package:flutter_application_1/muslim_App/data/ApiHelper.dart';
+import 'package:flutter_application_1/muslim_App/data/Provider/ApiProvider.dart';
+import 'package:provider/provider.dart';
 
 class QarilistScrean extends StatefulWidget {
   const QarilistScrean({super.key});

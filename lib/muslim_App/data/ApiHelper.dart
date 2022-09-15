@@ -19,6 +19,7 @@ class ApiHelper {
   List<Qurai> qarilist = [];
   //==================================================================
   Future<List<Qurai>> getQarilist() async {
+    //=
     String Url = 'http://quranicaudio.com/api/qaris';
     final response = await http.get(Uri.parse(Url));
     jsonDecode(response.body).forEach((element) {
@@ -32,6 +33,7 @@ class ApiHelper {
 
   //==================================================================
   Future<JusModel>? getJuzz(int index) async {
+    //=
     String Url = 'http://api.alquran.cloud/v1/juz/$index/quran-uthmani';
     final response = await http.get(Uri.parse(Url));
     if (response.statusCode == 200) {
@@ -44,7 +46,9 @@ class ApiHelper {
 
 //==================================================================
   Future<SurahTranslationList> getTranstaltion(
-      int index, int translationIndex) async {
+      //=
+      int index,
+      int translationIndex) async {
     String lan = "";
     if (translationIndex == 0) {
       lan = 'english_saheeh';
