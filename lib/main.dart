@@ -1,14 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/AL_Hadeth.dart/Al-Hadeh_ALnabawe.dart';
-import 'package:flutter_application_1/AL_Hadeth.dart/Al_Hadeth_Alqudse.dart';
-import 'package:flutter_application_1/MasbahaCounter.dart/AddZker.dart';
-import 'package:flutter_application_1/MasbahaCounter.dart/Alestkfar.dart';
-import 'package:flutter_application_1/MasbahaCounter.dart/Masbaha.dart';
-import 'package:flutter_application_1/MasbahaCounter.dart/Taspeh.dart';
-import 'package:flutter_application_1/QuranApp/Screans/JuzScrean.dart';
-import 'package:flutter_application_1/QuranApp/Screans/Surahdetail.dart';
-import 'package:flutter_application_1/QuranApp/Splash/SplashScrean.dart';
-import 'package:flutter_application_1/QuranApp/data/SpHelper.dart';
+import 'package:flutter_application_1/muslim_App/Category/MasbahaCounter.dart/AddZker.dart';
+import 'package:flutter_application_1/muslim_App/Category/Quran/juzz/JuzScrean.dart';
+import 'package:flutter_application_1/muslim_App/Category/Quran/surah/Surahdetail.dart';
+import 'package:flutter_application_1/muslim_App/Splash/SplashScrean.dart';
+import 'package:flutter_application_1/muslim_App/data/SpHelper.dart';
+
 import 'package:flutter_application_1/nameofAlah/nameofAlah.dart';
 import 'package:provider/provider.dart';
 //import 'package:firebase_core/firebase_core.dart';
